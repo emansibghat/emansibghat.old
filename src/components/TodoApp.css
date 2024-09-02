@@ -1,0 +1,249 @@
+/* Todo App Styles */
+
+body {
+  background-color: #f3f4f6;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Container for the entire app */
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* AddTodo form styles */
+.space-x-3 {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.bg-gray-800 {
+  background-color: #1f2937;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-gray-700 {
+  border-color: #374151;
+}
+
+.focus\:border-indigo-500:focus {
+  border-color: #6366f1;
+}
+
+.focus\:ring-2:focus {
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+
+.focus\:ring-indigo-900:focus {
+  box-shadow: 0 0 0 2px rgba(49, 46, 129, 0.2);
+}
+
+.text-base {
+  font-size: 1rem;
+  color:white;
+}
+
+.outline-none {
+  outline: none;
+}
+
+.text-gray-100 {
+  color: #f3f4f6;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.transition-colors {
+  transition-property: color, background-color, border-color;
+}
+
+.duration-200 {
+  transition-duration: 200ms;
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* AddTodo button styles */
+.text-white {
+  color: white;
+}
+
+.bg-indigo-500 {
+  background-color: #6366f1;
+}
+
+.border-0 {
+  border-width: 0;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.focus\:outline-none:focus {
+  outline: none;
+}
+
+.hover\:bg-indigo-600:hover {
+  background-color: #4f46e5;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+/.list-none {
+  list-style-type: none;
+  padding: 0;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.bg-zinc-800 {
+  background-color: #27272a;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* Todo text styles */
+.todo-text {
+  color: white;
+  flex-grow: 1;
+  word-break: break-word;
+  padding-right: 1rem;
+}
+
+/* Delete button styles */
+.bg-red-500 {
+  background-color: #ef4444;
+}
+
+.hover\:bg-red-600:hover {
+  background-color: #dc2626;
+}
+
+.text-md {
+  font-size: 1rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+/* Delete button styles */
+.bg-red-500 {
+  background-color: #ef4444;
+}
+
+.hover\:bg-red-600:hover {
+  background-color: #dc2626;
+}
+
+.text-md {
+  font-size: 1rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+/* Responsive design */
+@media (max-width: 640px) {
+  .container {
+    margin: 1rem;
+    padding: 0.5rem;
+  }
+
+  .space-x-3 {
+    flex-direction: column;
+  }
+
+  .space-x-3 > * + * {
+    margin-top: 0.75rem;
+  }
+
+  .list-none li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .list-none li button {
+    margin-top: 0.5rem;
+    align-self: flex-end;
+  }
+}
+.text-white {
+  color: white;
+}
+
+.todo-text {
+  flex-grow: 1;
+  word-break: break-word;
+  padding-right: 1rem;
+  font-size: 1rem;
+}
